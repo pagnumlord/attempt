@@ -1,4 +1,4 @@
-﻿export class MelodicJusticeGame {
+export class MelodicJusticeGame {
   constructor(refs, moves = []) {
     this.refs = refs;
     this.moves = moves;

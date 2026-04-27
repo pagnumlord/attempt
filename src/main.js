@@ -141,3 +141,6 @@ async function bootstrap() {
   renderMoves(); initGame();
 }
 bootstrap();
+
+
+import('./game.js').then(({ MelodicJusticeGame }) => { window.MelodicJusticeGame = MelodicJusticeGame; console.log('MelodicJusticeGame scaffold loaded'); });
