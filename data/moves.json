@@ -1,4 +1,4 @@
-﻿[
+[
   {"name":"Bass Drop","genre":"Deep Bass","damage":40,"ampCost":15,"colorCode":"#ff00ff","effect":"stun"},
   {"name":"Neural Overdrive","genre":"High Frequency","damage":35,"ampCost":10,"colorCode":"#31ff7a","effect":"sync_bonus"},
   {"name":"Static Cut","genre":"Lo-Fi","damage":22,"ampCost":6,"colorCode":"#00e5ff","effect":"distortion"}
