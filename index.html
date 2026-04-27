@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melodic Justice — Web Prototype</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>Melodic Justice</h1>
+        <p class="tagline">Sound is currency. Silence is death.</p>
+      </header>
+
+      <section class="hud">
+        <div id="player-status" class="panel"></div>
+        <div id="enemy-status" class="panel"></div>
+      </section>
+
+      <section class="world panel">
+        <h2>District Map</h2>
+        <pre id="map"></pre>
+      </section>
+
+      <section class="battle panel">
+        <h2>Battle Console</h2>
+        <div id="battle-log" class="log"></div>
+        <div id="moves" class="moves"></div>
+      </section>
+
+      <section class="panel controls">
+        <button id="end-turn">End Turn</button>
+        <button id="new-run">New Run</button>
+      </section>
+    </main>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
